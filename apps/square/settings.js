@@ -1,8 +1,7 @@
 (function(back) {
   const defaultSettings = {
-    loadWidgets    : false,
-    textAboveHands : false,
-    shortHrHand    : false
+    loadWidgets    : true,
+    textAboveHands : true,
   }
   let settings = Object.assign(defaultSettings, require('Storage').readJSON('square.json',1)||{});
 
@@ -17,10 +16,6 @@
     /*LANG*/'Text above hands': {
       value : !!settings.textAboveHands,
       onchange : v => { settings.textAboveHands=v; save();}
-    },
-    /*LANG*/'Short hour hand': {
-      value : !!settings.shortHrHand,
-      onchange : v => { settings.shortHrHand=v; save();}
     },
   };
 

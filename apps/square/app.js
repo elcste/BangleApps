@@ -1,8 +1,7 @@
 {
 const defaultSettings = {
-  loadWidgets    : false,
-  textAboveHands : false,
-  shortHrHand    : false
+  loadWidgets    : true,
+  textAboveHands : true,
 };
 const settings = Object.assign(defaultSettings, require('Storage').readJSON('square.json',1)||{});
 
@@ -49,7 +48,7 @@ const drawHands = function(d) {
 
   s=2*Math.PI/60*s-Math.PI/2;
   //g.setColor(1,0,0);
-  const hz = zeiger(settings.shortHrHand?88:100,5,h);
+  const hz = zeiger(100,5,h);
   g.fillPoly(hz,true);
   //g.setColor(1,1,1);
   const minz = zeiger(150,5,m);
