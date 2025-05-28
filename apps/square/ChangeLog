@@ -1,1 +1,2 @@
 0.01: Fork of andark 0.0.8 renamed to square
+      Removed battery line; changed date to show weekday not year; lowered date and increased font size
