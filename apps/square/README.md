@@ -1,4 +1,6 @@
-# Dark Analog Clock
+# Square Analog
+
+A square analog clock face
 
 ## Features
 
@@ -7,7 +9,7 @@
 * battery percentage (showing charge status with color)
 * turned off or swipeable widgets (choose in settings)
 
-![logo](andark_screen.png)
+![logo](square_screen.png)
 
 ## Settings
 

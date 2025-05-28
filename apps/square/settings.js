@@ -4,12 +4,12 @@
     textAboveHands : false,
     shortHrHand    : false
   }
-  let settings = Object.assign(defaultSettings, require('Storage').readJSON('andark.json',1)||{});
+  let settings = Object.assign(defaultSettings, require('Storage').readJSON('square.json',1)||{});
 
-  const save = () => require('Storage').write('andark.json', settings);
+  const save = () => require('Storage').write('square.json', settings);
 
   const appMenu = {
-    '': {title: 'andark'}, '< Back': back,
+    '': {title: 'Square'}, '< Back': back,
     /*LANG*/'Load widgets': {
       value : !!settings.loadWidgets,
       onchange : v => { settings.loadWidgets=v; save();}

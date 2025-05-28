@@ -4,7 +4,7 @@ const defaultSettings = {
   textAboveHands : false,
   shortHrHand    : false
 };
-const settings = Object.assign(defaultSettings, require('Storage').readJSON('andark.json',1)||{});
+const settings = Object.assign(defaultSettings, require('Storage').readJSON('square.json',1)||{});
 
 const c={"x":g.getWidth()/2,"y":g.getHeight()/2};
 
