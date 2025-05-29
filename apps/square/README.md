@@ -1,18 +1,19 @@
 # Square Analog
 
-A square analog clock face
-
 ## Features
 
-* second hand (only on unlocked screen)
-* date
-* battery percentage (showing charge status with color)
-* turned off or swipeable widgets (choose in settings)
+* Follows system color theme
+* Second hand is shown when unlocked
+* Weekday and date are displayed over the clock hands
+* Widgets are swipeable from the top
 
-![logo](square_screen.png)
+![Screenshot of Square Analog clock face](square_screen.png)
 
 ## Settings
 
-* whether to load widgets, or not; if widgets are loaded, they are swipeable from the top; if not, NO ACTIONS of widgets are available
-* date and battery can be printed both below hands (as if hands were physical) and above (more readable)
-* hour hand can be made slighly shorter to improve readability when minute hand is behind a number
+* `Text above hands`: Disable to display date below the clock hands
+* `Load widgets`: Disable to not load widgets
+
+***
+
+Thanks to the developers of [Analog Dark (andark)](https://banglejs.com/apps/?id=andark), which this is based on.
